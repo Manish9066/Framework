@@ -15,7 +15,8 @@ public LoginPage(WebDriver ldriver) {
 // store the element locator
 
 //for username
-@FindBy(name="name1")  WebElement username;
+//doing changes
+@FindBy(name="name")  WebElement username;
 // for password
 @FindBy(name="pass1") WebElement password;
 //for login button
