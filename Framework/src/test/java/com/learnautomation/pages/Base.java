@@ -9,6 +9,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -42,11 +43,13 @@ public class Base {
 			
 
 	}
+	@Parameters({"browser","urlTobeTested"})
 	@BeforeClass
-	public void setup() {
+	public void setup(String browserName,String url) {
 		//driver = BrowserFactory.startApplication(driver, "Chrome", "https://eproc.hal-india.co.in");
 		//call the method
-		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getUrl());
+		//driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getUrl());
+		driver = BrowserFactory.startApplication(driver, browserName, url);
 		driver.switchTo().frame("AppTop");
 	}
 	@AfterClass
