@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8183" started-at="2021-06-07T18:27:18Z" finished-at="2021-06-07T18:27:26Z">
+  <suite name="Suite" duration-ms="23961" started-at="2021-06-08T16:39:28Z" finished-at="2021-06-08T16:39:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8183" started-at="2021-06-07T18:27:18Z" finished-at="2021-06-07T18:27:26Z">
+    <test name="Test" duration-ms="23961" started-at="2021-06-08T16:39:28Z" finished-at="2021-06-08T16:39:52Z">
       <class name="com.learnautomation.testcases.LoginTestHAL">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="setupSuite" is-config="true" duration-ms="848" started-at="2021-06-07T23:57:17Z" finished-at="2021-06-07T23:57:18Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="setupSuite" is-config="true" duration-ms="890" started-at="2021-06-08T22:09:27Z" finished-at="2021-06-08T22:09:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="setup" is-config="true" duration-ms="5492" started-at="2021-06-07T23:57:18Z" finished-at="2021-06-07T23:57:23Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="setup" is-config="true" duration-ms="20417" started-at="2021-06-08T22:09:28Z" finished-at="2021-06-08T22:09:49Z">
           <params>
             <param index="0">
               <value>
@@ -20,18 +20,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://eproc.hal-india.co.in/]]>
+                <![CDATA[https://eproc.hal-india.co.in]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="LoginTest" duration-ms="751" started-at="2021-06-07T23:57:23Z" finished-at="2021-06-07T23:57:24Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="LoginTest" duration-ms="845" started-at="2021-06-08T22:09:49Z" finished-at="2021-06-08T22:09:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="teardown" is-config="true" duration-ms="998" started-at="2021-06-07T23:57:24Z" finished-at="2021-06-07T23:57:25Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="teardown" is-config="true" duration-ms="1296" started-at="2021-06-08T22:09:50Z" finished-at="2021-06-08T22:09:51Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardownclose()[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="teardownclose" is-config="true" duration-ms="915" started-at="2021-06-07T23:57:25Z" finished-at="2021-06-07T23:57:26Z">
+        <test-method status="PASS" signature="teardownclose()[pri:0, instance:com.learnautomation.testcases.LoginTestHAL@6ab7a896]" name="teardownclose" is-config="true" duration-ms="1377" started-at="2021-06-08T22:09:51Z" finished-at="2021-06-08T22:09:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownclose -->
